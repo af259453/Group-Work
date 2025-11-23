@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("image/background.jpg") center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding-bottom: 80px;
+
+header, footer {
+  background: #002B5B;
+  color: #fff;
+  padding: 1.3rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.3rem;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.login-card h3 {
+  margin-bottom: 1rem;
+  color: #002B5B;
+}
+
+.login-form label {
+  display: block;
+  font-size: 0.9rem;
+  margin: 8px 0 6px;
+  color: #2b3b4a;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.input-wrap .input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #7a8b9a;
+  font-size: 14px;
+}
+
+.input-wrap input {
+  width: 100%;
+  padding: 10px 12px 10px 36px;
+  border-radius: 6px;
+  border: 1px solid #d5dbe0;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-wrap input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.15);
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #444;
+}
+
+.forgot-link {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: 600;
+}
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn.primary {
+  background: #007BFF;
+  color: white;
+}
+
+.btn.secondary {
+  background: #ffffff;
+  color: #002B5B;
+  border: 1px solid #002B5B33;
+}
+
+.container, .hero {
+  background: rgba(255,255,255,0.9);
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  color: #002B5B;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin: 10px 0;
+}
+
+.social-icons span {
+  display: inline-block;
+  background: white;
+  color: #002B5B;
+  padding: 6px 12px;
+  margin: 5px 5px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
